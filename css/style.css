@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* line 1, ../projects/Racoon/scss/style.scss */
 html,
 body,
@@ -80,6 +81,9 @@ time,
 mark,
 audio,
 video {
+=======
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   margin: 0;
   padding: 0;
   border: 0;
@@ -88,6 +92,7 @@ video {
   vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 /* line 90, ../projects/Racoon/scss/style.scss */
 article,
 aside,
@@ -104,15 +109,25 @@ section {
 }
 
 /* line 104, ../projects/Racoon/scss/style.scss */
+=======
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 html {
   height: 100%;
 }
 
+<<<<<<< HEAD
 /* line 108, ../projects/Racoon/scss/style.scss */
+=======
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 body {
   line-height: 1;
 }
 
+<<<<<<< HEAD
 /* line 112, ../projects/Racoon/scss/style.scss */
 ol,
 ul {
@@ -135,39 +150,68 @@ q:after {
 }
 
 /* line 130, ../projects/Racoon/scss/style.scss */
+=======
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 /* line 138, ../projects/Racoon/scss/style.scss */
+=======
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 .container {
   max-width: 1440px;
   margin: 0 auto;
   z-index: 999;
 }
 
+<<<<<<< HEAD
 /* line 144, ../projects/Racoon/scss/style.scss */
 .headerContainer {
   perspective: 1500px;
 }
 
 /* line 149, ../projects/Racoon/scss/style.scss */
+=======
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
 
   background-color: white;
   position: relative;
 }
 
 /* line 158, ../projects/Racoon/scss/style.scss */
+=======
+  height: 100vh;
+  background-color: #0E3963;
+  position: relative;
+}
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 .header .particles-js-canvas-el {
   position: absolute;
   top: 0;
   left: 0;
 }
+<<<<<<< HEAD
 
 /* line 164, ../projects/Racoon/scss/style.scss */
 .header_title {
@@ -192,21 +236,48 @@ table {
   width: 35px;
   height: 35px;
   border: 7px solid #0E3963;
+=======
+.header_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 190px;
+  margin-bottom: 50px;
+}
+.header_e {
+  display: inline-flex;
+}
+.header_y1 {
+  width: 25px;
+  height: 25px;
+  border: 7px solid white;
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   border-radius: 50%;
   margin-right: 3px;
   position: relative;
 }
+<<<<<<< HEAD
 
 /* line 189, ../projects/Racoon/scss/style.scss */
 .header_y2 {
   width: 15px;
   height: 15px;
   background: #0E3963;
+=======
+.header_y2 {
+  width: 10px;
+  height: 10px;
+  background: white;
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   left: 0px;
   bottom: 7.5px;
   border-radius: 100%;
 }
+<<<<<<< HEAD
 
 /* line 199, ../projects/Racoon/scss/style.scss */
 .header_y3 {
@@ -222,11 +293,25 @@ table {
   width: 15px;
   height: 15px;
   background: #0E3963;
+=======
+.header_y3 {
+  width: 25px;
+  height: 25px;
+  border: 7px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+.header_y4 {
+  width: 10px;
+  height: 10px;
+  background: white;
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   left: 0px;
   bottom: 7.5px;
   border-radius: 100%;
 }
+<<<<<<< HEAD
 
 /* line 221, ../projects/Racoon/scss/style.scss */
 .header_gallery {
@@ -283,10 +368,41 @@ table {
 }
 
 /* line 265, ../projects/Racoon/scss/style.scss */
+=======
+.header_me {
+  background-color: white;
+  height: 130px;
+  -webkit-clip-path: polygon(0 0, 97% 0, 100% 73%, 3% 83%);
+          clip-path: polygon(0 0, 97% 0, 100% 73%, 3% 83%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  margin-bottom: 62px;
+}
+.header_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.header_text span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 .header_arrow {
   margin: 40px auto 30px auto;
   width: 38px;
   height: 100px;
+<<<<<<< HEAD
   transition: opacity 1s ease;
 }
 
@@ -295,10 +411,18 @@ table {
   display: block;
   width: calc((1vh + 1vw) * 1.4);
   height: calc((1vh + 1vw) * 1.4);
+=======
+}
+.header_arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   border-bottom: 3px solid #ffffff;
   border-right: 3px solid #ffffff;
   transform: rotate(45deg);
   margin: -16px 0;
+<<<<<<< HEAD
   animation: arrow 2s infinite;
 }
 
@@ -312,6 +436,32 @@ table {
   animation-delay: -0.4s;
 }
 
+=======
+  -webkit-animation: arrow 2s infinite;
+          animation: arrow 2s infinite;
+}
+.header_arrow span:nth-child(2) {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.header_arrow span:nth-child(3) {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+@-webkit-keyframes arrow {
+  0% {
+    opacity: 0;
+    transform: translate(0, -20px) rotate(45deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 20px) rotate(45deg);
+  }
+}
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 @keyframes arrow {
   0% {
     opacity: 0;
@@ -326,6 +476,7 @@ table {
   }
 }
 
+<<<<<<< HEAD
 /* line 317, ../projects/Racoon/scss/style.scss */
 .services_info {
   position: relative;
@@ -360,29 +511,75 @@ table {
 /* line 346, ../projects/Racoon/scss/style.scss */
 .services_li {
   font-family: 'Montserrat';
+=======
+.services_info {
+  position: relative;
+  padding: 191px 0px 155px 0px;
+}
+.services_info span:nth-child(1) > img {
+  position: absolute;
+  left: 3.95%;
+  top: 16.21%;
+  transform: rotate(11.42deg);
+}
+.services_info span:nth-child(2) > img {
+  position: absolute;
+  left: 85.01%;
+  top: 65.93%;
+  transform: rotate(16.57deg);
+}
+.services_info span:nth-child(3) > img {
+  position: absolute;
+  left: 3.15%;
+  top: 81.32%;
+  transform: rotate(-20.05deg);
+}
+.services_list {
+  text-align: center;
+}
+.services_li:nth-child(2) {
+  opacity: 0.29;
+}
+.services_li:nth-child(3) {
+  opacity: 0.17;
+}
+.services_li {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 73px;
   color: #000000;
+<<<<<<< HEAD
   margin-left: 10%;
   transition: opacity 1s ease;
 }
 
 /* line 367, ../projects/Racoon/scss/style.scss */
+=======
+}
+
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 .aboutUs_content {
   text-align: left;
   position: relative;
 }
+<<<<<<< HEAD
 
 /* line 373, ../projects/Racoon/scss/style.scss */
 .aboutUs_text {
   font-family: 'Montserrat';
+=======
+.aboutUs_text {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 44px;
   color: #000000;
+<<<<<<< HEAD
   margin: 0px 0px 45px 0px;
   padding: 0px 18px;
 }
@@ -390,6 +587,13 @@ table {
 /* line 384, ../projects/Racoon/scss/style.scss */
 .aboutUs_borderSpan {
   content: '';
+=======
+  margin: 155px 0px 45px 0px;
+  padding: 0px 18px;
+}
+.aboutUs_borderSpan {
+  content: "";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   width: 6px;
   top: 0;
@@ -399,6 +603,7 @@ table {
   background-color: #0E3963;
 }
 
+<<<<<<< HEAD
 /* line 398, ../projects/Racoon/scss/style.scss */
 .slider_container {
   overflow: hidden;
@@ -413,10 +618,22 @@ table {
   font-size: calc((1vh + 1vw) * 1.5);
   line-height: calc((1vh + 1vw) * 0.9);
   color: white;
+=======
+.slider_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   display: flex;
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 
 /* line 417, ../projects/Racoon/scss/style.scss */
 .slider_titleContainer {
@@ -455,6 +672,29 @@ table {
 /* line 452, ../projects/Racoon/scss/style.scss */
 .slider_head {
   font-family: 'Montserrat';
+=======
+.slider_titleContainer {
+  background: #0E3963;
+  border-radius: 11px;
+  width: 0px;
+}
+.slider_body {
+  display: flex;
+  margin: 49px 0px;
+}
+.slider_elem {
+  width: 397px;
+  background: #FFFFFF;
+  box-shadow: 0px 9px 40px rgba(0, 0, 0, 0.17);
+  border-radius: 30px;
+  margin: 0px 30px;
+}
+.slider_content {
+  margin-left: 33px;
+}
+.slider_head {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -466,11 +706,17 @@ table {
   border-radius: 30px 30px 0px 0px;
   margin-bottom: 19px;
 }
+<<<<<<< HEAD
 
 /* line 468, ../projects/Racoon/scss/style.scss */
 .slider_service {
   display: inline-block;
   font-family: 'Montserrat';
+=======
+.slider_service {
+  display: inline-block;
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -481,10 +727,15 @@ table {
   border-radius: 4px;
   margin-bottom: 35px;
 }
+<<<<<<< HEAD
 
 /* line 484, ../projects/Racoon/scss/style.scss */
 .slider_spec {
   font-family: 'Montserrat';
+=======
+.slider_spec {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -493,10 +744,15 @@ table {
   padding-left: 10px;
   margin-bottom: 23px;
 }
+<<<<<<< HEAD
 
 /* line 497, ../projects/Racoon/scss/style.scss */
 .slider_serviceName {
   font-family: 'Montserrat';
+=======
+.slider_serviceName {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 500;
   font-size: 27px;
@@ -504,10 +760,15 @@ table {
   color: #0F2C47;
   margin-bottom: 67px;
 }
+<<<<<<< HEAD
 
 /* line 509, ../projects/Racoon/scss/style.scss */
 .slider_discription {
   font-family: 'Montserrat';
+=======
+.slider_discription {
+  font-family: "Montserrat";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -517,6 +778,7 @@ table {
   color: #414141;
   margin-bottom: 143px;
 }
+<<<<<<< HEAD
 
 /* line 521, ../projects/Racoon/scss/style.scss */
 .slider_btnMore {
@@ -529,33 +791,56 @@ table {
 /* line 528, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle {
   content: '';
+=======
+.slider_btnMore {
+  position: relative;
+  padding: 0px 0px 30px 0px;
+  width: 100px;
+  margin: 0 auto;
+}
+.slider_btnMoreCircle {
+  content: "";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   width: 13px;
   height: 13px;
   border-radius: 50%;
   background: #072B87;
 }
+<<<<<<< HEAD
 
 /* line 539, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::after {
   content: '';
+=======
+.slider_btnMoreCircle::after {
+  content: "";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   width: 13px;
   height: 13px;
   border-radius: 50%;
   background: #072B87;
+<<<<<<< HEAD
   margin-left: 15px;
 }
 
 /* line 549, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::before {
   content: '';
+=======
+  margin-left: 14px;
+}
+.slider_btnMoreCircle::before {
+  content: "";
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
   position: absolute;
   width: 13px;
   height: 13px;
   border-radius: 50%;
   background: #072B87;
   margin-left: 30px;
+<<<<<<< HEAD
 }
 
 /* line 561, ../projects/Racoon/scss/style.scss */
@@ -1047,3 +1332,6 @@ table {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+}
+>>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
