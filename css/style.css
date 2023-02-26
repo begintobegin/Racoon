@@ -247,7 +247,19 @@ table {
   will-change: transform;
   transform-style: preserve-3d;
 }
+.header_nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.header_ul{
+  display: flex;
+ 
+}
 
+.header_li:not(:last-child){
+  margin-right: 30px;
+}
 /* line 243, ../projects/Racoon/scss/style.scss */
 .header_text {
   font-family: 'Montserrat';
