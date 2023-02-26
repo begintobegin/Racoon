@@ -158,7 +158,7 @@ table {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-color: #0E3963;
+  background-color: white;
   position: relative;
 }
 
@@ -167,8 +167,13 @@ table {
   position: absolute;
   top: 0;
   left: 0;
+  
 }
+.partners_image{
+ 
 
+  z-index: 6;
+}
 /* line 164, ../projects/Racoon/scss/style.scss */
 .header_title {
   font-family: 'Montserrat';
@@ -176,12 +181,20 @@ table {
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
-  color: #FFFFFF;
+  color: #0E3963;
   padding-top: 190px;
   margin-bottom: 50px;
   text-align: center;
 }
-
+.partners .particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.partners{
+  position: relative;
+}
 /* line 176, ../projects/Racoon/scss/style.scss */
 .header_e {
   display: inline-flex;
@@ -191,7 +204,7 @@ table {
 .header_y1 {
   width: 35px;
   height: 35px;
-  border: 7px solid white;
+  border: 7px solid #0E3963;
   border-radius: 50%;
   margin-right: 3px;
   position: relative;
@@ -201,7 +214,7 @@ table {
 .header_y2 {
   width: 15px;
   height: 15px;
-  background: white;
+  background: #0E3963;
   position: absolute;
   left: 0px;
   bottom: 7.5px;
@@ -212,7 +225,7 @@ table {
 .header_y3 {
   width: 35px;
   height: 35px;
-  border: 7px solid white;
+  border: 7px solid #0E3963;
   border-radius: 50%;
   position: relative;
 }
@@ -221,7 +234,7 @@ table {
 .header_y4 {
   width: 15px;
   height: 15px;
-  background: white;
+  background: #0E3963;
   position: absolute;
   left: 0px;
   bottom: 7.5px;
@@ -237,7 +250,8 @@ table {
 .header_me {
   background-color: white;
   height: calc((1vh + 1vw) * 4);
-  border-radius: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -124,7 +124,6 @@ particlesJS('particles-js',
   "retina_detect": true
 }
 
-<<<<<<< HEAD
 );
 particlesJS('particles',
   
@@ -239,6 +238,4 @@ particlesJS('particles',
   "retina_detect": true
 }
 
-=======
->>>>>>> 8aae912095638aa44a3e9e02ebba229777813809
 );
