@@ -25,14 +25,14 @@
   <div class="wrapper">
     <header class="header" id="particles-js">
       <div class="header_nav nav-container">
-       
+
         <ul class="header_ul">
-          <li class="header_li">О нас</li>
-          <li class="header_li">Услуги</li>
-          <li class="header_li">Проекты</li>
-          <li class="header_li">Контакты</li>
+          <li class="header_li"><a href="#">О НАС</a></li>
+          <li class="header_li"><a href="#">УСЛУГИ</a></li>
+          <li class="header_li"><a href="#">ПРОЕКТЫ</a></li>
+          <li class="header_li"><a href="#">КОНТАКТЫ</a></li>
         </ul>
-      
+
       </div>
       <div class="container headerContainer">
         <div class="header_title">
@@ -46,10 +46,12 @@
           </div>N IT Group
         </div>
         <section class="header_gallery">
-          <div class="header_me" id="headerBlock">
-            <div class="header_text">
-              мы не просто создаём сайты<br>
-              
+          <div class="header_me">
+            <div class="header_text header_front">
+              мы не просто создаём сайты...
+            </div>
+            <div class="header_text header_bottom">
+              мы делаем технологии ближе
             </div>
           </div>
         </section>
@@ -70,12 +72,26 @@
             <span><img src="img/Vector.svg" alt="" id="servicesIMage"></span>
             <span><img src="img/Vector (1).svg" alt="" id="servicesIMage"></span>
             <span><img src="img/Vector (2).svg" alt="" id="servicesIMage"></span>
-            <ul class="services_list" id="blockServices">
-              <li class="services_li">IT решения для вашего бизнеса</li>
-              <li class="services_li ">Сайты</li>
-              <li class="services_li">Приложения</li>
-
-            </ul>
+            <div class="services_scroll">
+              <ul class="services_left">
+                <li class="services_li highlight">IT решения</li>
+                <li class="services_li">Сайты</li>
+                <li class="services_li">Приложения</li>
+                <li class="services_li">Аутсорсинг</li>
+                <li class="services_li">Web-дизайн</li>
+                <li class="services_li">IT-консалтинг</li>
+                <li class="services_li">SMM</li>
+                <li class="services_li">Тех. поддержка</li>
+                <li class="services_li">Аутстафинг</li>
+                <li class="services_li">IT инфраструктура</li>
+                <li class="services_li">Онлайн-реклама</li>
+                <!-- <div class="services_li hidden">Онлайн-реклама</div>
+                <div class="services_li hidden">Онлайн-реклама</div> -->
+              </ul>
+              <div class="services_right">
+                для вашего бизнеса...
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -94,6 +110,9 @@
           </div>
         </div>
       </div>
+
+      <div class="slider_background"></div>
+
       <div class="slider">
         <div class="container slider_container">
           <div class="slider_titleContainer" id="slider_titleContainer">
@@ -314,6 +333,16 @@
               </div>
             </div>
           </div>
+          <div class="slider_arrows">
+            <div class="prev">
+              <img src="img/prev.png" class="slider_arrows_prev">
+              <img src="img/prev_active.png" class="slider_arrows_prev_active">
+            </div>
+            <div class="next">
+              <img src="img/next.png" class="slider_arrows_next">
+              <img src="img/next_active.png" class="slider_arrows_next_active">
+            </div>
+          </div>
         </div>
 
         <div class="work">
@@ -382,7 +411,7 @@
           </div>
         </div>
 
-        <div class="partners" id = "particles">
+        <div class="partners" id="particles">
           <div class="container">
             <div class="partners_text">
               <div class="partners_text_title">Станьте частью партнерской сети Raccoon</div>
@@ -414,7 +443,9 @@
   <script src="script/app.js"></script>
   <script src="script/slick.js"></script>
   <script src="script/eye.js"></script>
+  <script src="script/rotate.js"></script>
   <script src="script/scroll.js"></script>
+  <script src="script/onpressed.js"></script>
   <script src="lib/jquery.flip.min.js"></script>
   <script src="script/flip.js"></script>
   <script src="script/circles.js"></script>

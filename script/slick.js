@@ -4,6 +4,8 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        prevArrow: $('.slider_arrows_prev'),
+        nextArrow: $('.slider_arrows_next'),
         responsive: [
             {
                 breakpoint: 1024,
