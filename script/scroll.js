@@ -24,3 +24,15 @@ list.addEventListener('scroll', function (e) {
         }
     })
 })
+
+$(window).scroll(function () {
+    if (document.documentElement.scrollTop > 2000) {
+        document.getElementById('hrWork').style.transform = 'translateX(0)'
+    }
+    if (document.documentElement.scrollTop > 2800) {
+        document.getElementById('hrProjects').style.transform = 'translateX(0)'
+    }
+    if (document.documentElement.scrollTop > 4200) {
+        document.getElementById('hrConditionals').style.transform = 'translateX(0)'
+    }
+})
