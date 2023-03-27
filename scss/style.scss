@@ -1017,7 +1017,9 @@ table {
   color: #fff;
   position: relative;
   margin-bottom: 50px;
-
+  &_image img{
+    height: 100%;
+  }
   // partners_text
   &_text {
     max-width: 720px;
